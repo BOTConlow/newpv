@@ -1,0 +1,59 @@
+.promocao {
+    text-align: center;
+    border-radius: 10px;
+    padding: 3rem;
+    color: var(--white);
+    background: radial-gradient(var(--red-400), var(--red-200));
+    margin-bottom: 1rem;
+}
+
+.promocao h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--white);
+    font-size: 3.5rem;
+    margin: 2rem 0;
+    text-decoration: line-through;
+}
+
+.promocao p {
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+
+.promocao h2 {
+    margin: 2rem 0;
+}
+
+.subtitle p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .promocao {
+        padding: 1.5rem;
+    }
+    
+    .promocao h1 {
+        font-size: 2.5rem;
+    }
+    
+    .promocao p {
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+
+    .promocao h2 {
+        font-size: 1.2rem;
+    }
+    
+    
+    .promocao button {
+        font-size: .9rem;
+    }
+
+    .subtitle p {
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,171 @@
+.content .title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+}
+
+.content .subtitle {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 12rem;
+
+}
+
+.content .buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .buttons button {
+    cursor: pointer;
+    background: #c4170c;
+    color: var(--white);
+    font-size: 1.3rem;
+    text-align: left;
+    padding: .7rem;
+    border: 0;
+    border-radius: 16px;
+    margin-bottom: .4rem;
+}
+
+.content .buttons button:hover {
+    background: #ca2e24;
+}
+
+.content .barloader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content .page3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60rem;
+    text-align: center;
+}
+
+.content .page3 img {
+    width: 50rem;
+    height: 30rem;
+    padding: 1rem 0 3rem;
+}
+
+.content .forma .firstext {
+    margin-bottom: 1.5rem;
+}
+
+.content .forma .box {
+    border-radius: 10px;
+    padding: 2rem;
+    background: #c4170c;
+    color: var(--white);
+    font-weight: lighter;
+    font-size: 1.8rem;
+}
+
+.content .forma .box p {
+    margin-bottom: 1.5rem;
+}
+
+.content .forma .secondtext {
+    padding: 0 2rem;
+    margin-top: 3rem;
+    border-top: 1px solid #c8c9ca;
+    text-align: left;
+}
+
+.content .forma .secondtext h4 {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: var(--red-400)
+}
+
+.content .forma .secondtext p {
+    margin-bottom: 1rem;
+}
+
+.content .forma .secondtext ul {
+    padding-left: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .content .title {
+        margin-bottom: 3rem;
+        font-size: 1.6rem;
+    }
+
+
+    .content .subtitle {
+        margin-top: 0rem;
+        font-size: 1.4rem;
+
+    }
+
+    .content .buttons button {
+        font-size: 1rem;
+        padding: .6rem;
+    }
+
+    .content .page3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 23rem;
+        text-align: center;
+    }
+    
+    .content .page3 img {
+        width: 22rem;
+        height: 15rem;
+        padding: 1rem 0 2rem;
+    }
+    
+    .content .forma .firstext {
+        margin-bottom: 1.5rem;
+    }
+    
+    .content .forma .box {
+        border-radius: 10px;
+        padding: 2rem;
+        background: #c4170c;
+        color: var(--white);
+        font-weight: lighter;
+        font-size: 1.2rem;
+    }
+    
+    .content .forma .box p {
+        margin-bottom: 1.5rem;
+    }
+    
+    .content .forma .secondtext {
+        padding: 0 2rem;
+        margin-top: 3rem;
+        border-top: 1px solid #c8c9ca;
+        text-align: left;
+    }
+    
+    .content .forma .secondtext h4 {
+        font-size: 1.8rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        color: var(--red-400)
+    }
+    
+    .content .forma .secondtext p {
+        margin-bottom: 1rem;
+    }
+    
+    .content .forma .secondtext ul {
+        padding-left: 2rem;
+        margin-bottom: 2.5rem;
+    }
+
+}

@@ -1,0 +1,82 @@
+.content {
+    position: fixed;
+    right: 2rem;
+    bottom: 3rem;
+
+    animation: PopupAnim .2s ease;
+}
+
+.content .box {
+    display: flex;
+    align-items: center;
+    padding: .7rem;
+    border-radius: 10px;
+    gap: .6rem;
+    color: var(--white);
+    background: red;
+}
+
+.desapearAnim {
+    bottom: -5rem;
+    opacity: 0;
+    animation: DesapearPopupAnim .3s ease;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .content {
+        position: fixed;
+        bottom: 3rem;
+
+        animation: PopupAnim .2s ease;
+    }
+
+    .content .box {
+        padding: .7rem;
+        gap: .6rem;
+    }
+
+    .content .box h4 {
+        
+        font-size: .8rem;
+    }
+
+
+    .desapearAnim {
+        bottom: -5rem;
+        opacity: 0;
+        animation: DesapearPopupAnim .3s ease;
+
+    }
+
+}
+
+
+@keyframes PopupAnim {
+
+    0% {
+        bottom: -5rem;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 3rem;
+    }
+
+}
+
+@keyframes DesapearPopupAnim {
+
+    0% {
+        bottom: 3rem;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        bottom: -5rem;
+    }
+
+}

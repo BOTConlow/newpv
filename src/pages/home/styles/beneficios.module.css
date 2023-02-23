@@ -1,0 +1,117 @@
+.content {
+    width: 100%;
+}
+
+.content .strutureheadline {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0 3rem;
+}
+
+.content .strutureheadline h1 {
+    text-align: center;
+    max-width: 35rem;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.content .strutureicons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.content .strutureicons .icon1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+    height: 5.5rem;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+
+    color: var(--white);
+    background: linear-gradient(180deg, #4a4e69, #33364c);
+    cursor: pointer;
+    transition: 400ms all ease;
+}
+
+.content .strutureicons .icon1:hover {
+
+    background: linear-gradient(70deg, #DB1C0F, #8F0E05);
+    transform: translateX(-3rem);
+}
+
+.content .strutureicons .icon2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+    height: 5.5rem;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+
+    color: var(--white);
+    background: linear-gradient(180deg, #4a4e69, #33364c);
+    cursor: pointer;
+    transition: 400ms all ease;
+}
+
+.content .strutureicons .icon2:hover {
+
+    background: linear-gradient(70deg, #DB1C0F, #8F0E05);
+    transform: translateX(3rem);
+}
+
+.content .strutureicons .icontext {
+    font-size: 1.2rem;
+    font-weight: bold;
+    max-width: 24rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .content .strutureheadline {
+        flex-direction: column;
+        margin: 0 0 2rem;
+        gap: 1rem;
+    }
+
+    .content .strutureheadline h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .content .strutureheadline img {
+        width: 12rem;
+    }
+
+    .content .strutureicons {
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .content .strutureicons .icon1 {
+        margin-bottom: 1.1rem;
+    }
+
+    .content .strutureicons .icon1:hover {
+        transform: scale(1.06);
+    }
+
+    .content .strutureicons .icon2 {
+        margin-bottom: 1.1rem;
+    }
+
+    .content .strutureicons .icon2:hover {
+        transform: scale(1.06);
+    }
+
+    .content button {
+        font-size: 1.2rem;
+    }
+}

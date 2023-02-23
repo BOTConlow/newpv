@@ -1,0 +1,171 @@
+.content {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem 0 3rem;
+
+}
+
+.content .struture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    text-align: left;
+    border-bottom: 2px solid var(--red-400);
+
+}
+
+.content .struture h1 {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    max-width: 35rem;
+}
+
+.content .struture p {
+    line-height: 140%;
+    font-size: 1.2rem;
+    margin-bottom: .8rem;
+    max-width: 32rem;
+
+
+}
+
+.content .struture img {
+    margin-bottom: 0rem;
+    margin-top: -2rem;
+}
+
+.content .struture .item {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.content .subtitle {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.content .acao {
+    margin: 3rem 0;
+    width: 100%;
+    gap: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content .acao .icon {
+    display: flex;
+    gap: 1rem;
+}
+
+.content .acao .icontext {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.content .provocam {
+    border-radius: 10px;
+    padding: 2rem;
+    background: linear-gradient(180deg, #4a4e69, #33364c);
+    text-align: center;
+    transition: 400ms all;
+}
+
+.content .provocam:hover {
+    transform: scale(1.1);
+}
+
+.content .provocam p {
+    color: var(--white);
+    font-size: 1.2rem;
+    margin-bottom: 1.6rem;
+    max-width: 36rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .content {
+        padding: 0 0 1rem;
+
+    }
+
+    .content .struture {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .content .struture h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .content .struture p {
+        line-height: 170%;
+        font-size: 1rem;
+    }
+
+    .content .struture img {
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+        width: 20rem;
+    }
+
+    .content .struture .item {
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+
+    .content .subtitle {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+
+    .content .acao {
+        margin: 2.5rem 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .content .acao .icon {
+        width: 100%;
+        display: flex;
+        gap: .9rem;
+    }
+
+    .content .icontext {
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
+    .content .provocam {
+        border-radius: 10px;
+        padding: 1rem;
+        background: linear-gradient(180deg, #4a4e69, #33364c);
+        text-align: center;
+    }
+
+    .content .provocam:hover {
+        transform: scale(1.06);
+    }
+
+    .content .provocam p {
+        font-size: 1rem;
+        margin-bottom: 1.2rem;
+        max-width: 36rem;
+        line-height: 150%;
+    }
+
+}

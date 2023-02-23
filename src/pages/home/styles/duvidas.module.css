@@ -1,0 +1,100 @@
+.content {
+    width: 100%;
+}
+
+.content .headline{
+    margin: 1rem 0 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.faqbox {
+    width: 100%;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.faqbox .title {
+    background: linear-gradient(90deg, var(--red-300), var(--red-500));
+    border-radius: 8px;
+    color: var(--white);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    gap: 1.5rem;
+    font-size: .9rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+.faqbox .title button {
+    padding: 0 1rem;
+    color: var(--white);
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+}
+
+.faqbox .desc {
+    font-size: 1.5rem;
+    animation: openAnimation 200ms linear normal;
+    height: 5.7rem;
+
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .content {
+        width: 100%;
+    }
+    
+    .content .headline{
+        margin: 1rem 0 2rem;
+    }
+    
+    .faqbox .title {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        gap: 1.5rem;
+    
+       font-size: .6rem;
+    }
+    
+    .faqbox .title button {
+        padding: 0 1rem;
+        color: var(--white);
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+    }
+    
+    .faqbox .desc {
+        font-size: 1.5rem;
+        animation: openAnimation 200ms linear normal;
+        height: 13rem;
+    
+    }
+    
+}
+
+
+@keyframes openAnimation {
+        0% {
+            opacity: 0;
+            height: 0;
+        }
+
+        100% {
+            opacity: 1;
+            height: 5.625rem;
+        }
+
+}
+
+
+
+
+

@@ -1,0 +1,80 @@
+.depoimentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 5rem;
+    margin: 2rem 0 3rem;
+}
+
+.depoimentos .title {
+    max-width: 33rem;
+}
+
+
+.depoimentos .title h1 {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    padding-left: 1.2rem;
+}
+
+.depoimentos .title p {
+    line-height: 140%;
+    font-size: 1.2rem;
+    padding-left: 1.2rem;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    width: 2.2px;
+    height: 17.1rem;
+    top: 3rem;
+    background: var(--red-400);
+}
+
+.depoimentos .images {
+    width: 23rem;
+    height: 23rem;
+    border-radius: 10px;
+    box-shadow: 35px 35px 0px 0px #BD1A0F;
+}
+
+.depoimentos .images img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .depoimentos {
+        flex-direction: column;
+        gap: 2.5rem;
+        margin: 1rem 0 3.5rem;
+    }
+    
+    .depoimentos .title h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        padding-left: .8rem;
+    }
+    
+    .depoimentos .title p {
+        line-height: 170%;
+        font-size: 1rem;
+        padding-left: .8rem;
+    }
+
+    .title::before {
+        height: 16.9rem;
+        top: 0.6rem;
+    }
+    
+    .depoimentos .images {
+        width: 18rem;
+        height: 18rem;    
+    }
+
+}

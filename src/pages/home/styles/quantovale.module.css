@@ -1,0 +1,145 @@
+.border {
+    padding: 3rem;
+}
+
+.content {
+    box-shadow: 0px 0px 15px 11px var(--red-200);
+    border-radius: 16px;
+}
+
+.content .headline {
+    padding: 2rem;
+    border-radius: 15px 15px 0 0;
+    color: var(--white);
+    background: linear-gradient(0deg, var(--red-200), var(--red-400));
+}
+
+.content .headline h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 0px 0px 2.3px #fff;
+    color: var(--white);
+}
+
+.content .texts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 0rem 2rem;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(10deg, #d8e2ec, #fdfdfe);
+}
+
+.content .texts .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 40rem;
+}
+
+
+.content .texts .title h1 {
+    margin-bottom: 3rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.content .texts .struture {
+    border-bottom: 1px solid #ddd;
+    gap: 1rem;
+    width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.content .texts .struture h1 {
+    font-size: 1.5rem;
+}
+
+.content .texts .struture .itens {
+    display: flex;
+    gap: 1rem;
+}
+
+.content .texts .struture .itens p {
+    font-size: 1.3rem;
+    text-decoration: line-through;
+}
+
+.content .texts .price h1 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 5rem;
+    text-shadow: 0px 0px 3px var(--red-500);
+    color: var(--red-400)
+}
+
+.content .texts .price p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .border {
+        padding: 1rem .5rem;
+    }
+
+    .content .headline {
+        padding: 1rem .5rem;
+    }
+
+    .content .headline h1 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .content .texts {
+        padding: 1.5rem .7rem 2rem;
+    }
+
+    .content .texts .title h1 {
+        margin: 0rem 0rem 2.5rem;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .content .texts .struture {
+        margin-bottom: 1.5rem;
+    }
+
+    .content .texts .struture h1 {
+        font-size: 1rem;
+    }
+
+    .content .texts .struture .itens {
+        display: flex;
+        gap: .5rem;
+    }
+
+    .content .texts .struture .itens p {
+        font-size: 1rem;
+        text-decoration: line-through;
+    }
+
+    .content .texts .struture .itens h1 {
+        font-size: 1rem;
+        margin-bottom: .7rem;
+    }
+
+
+    .content .texts .price {
+        text-align: center;
+    }
+
+    .content .texts .price h1 {
+        font-size: 3rem;
+    }
+
+    .content .texts .price p {
+        font-size: 1.5rem;
+    }
+}

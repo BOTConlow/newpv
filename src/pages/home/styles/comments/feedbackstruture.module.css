@@ -1,0 +1,117 @@
+.depoimentostruture {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.feedbacklike {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.feedbacklike button {
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: .4rem;
+    border: 0;
+    transition: all 200ms;
+    background: #f0f2f5;
+}
+
+.feedbacklike button:hover {
+    background: #d9d9d9;
+}
+
+.depoimentostruture .feedbacklike img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+
+.depoimentostruture .depoimentotext {
+    padding: .8rem;
+    border-radius: 20px;
+    background: #f0f2f5;
+    position: relative;
+    
+}
+
+.depoimentostruture .depoimentotext .top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: .3rem;
+    color: #000;
+    font-weight: 500;
+}
+
+.top h4 {
+    cursor: pointer;
+    font-weight: 500;
+    color: #000;
+    width: 14ch;
+}
+
+.top h4:hover {
+    text-decoration: underline;
+}
+
+
+.depoimentostruture .depoimentotext .feedbacklove {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: .3rem;
+    padding: .4rem;
+    border-radius: 30rem;
+    background: #f8fafc;
+    position: absolute;
+    right: 0;
+    box-shadow: 3px 3px 10px #c9c7c7;
+    margin-top: .3rem;
+
+}
+
+.feedbacklove img {
+    width: 1.4rem;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .feedbacklike {
+        font-size: .8rem;
+        gap: .6rem;
+    }
+
+    .feedbacklike button {
+        font-size: .8rem;
+    }
+
+    .depoimentostruture .feedbacklike img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    .depoimentostruture .depoimentotext {
+        min-width: 78%;
+        padding: .87rem .80rem;
+        font-size: .8rem;
+    }
+
+    .depoimentostruture .depoimentotext .feedbacklove {
+        padding: .3rem;
+    }
+    
+    .feedbacklove img {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .feedbacklove span {
+        font-size: 1rem;
+    }
+    
+}

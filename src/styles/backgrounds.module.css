@@ -1,0 +1,13 @@
+.content {
+
+    background-size: cover;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .content {
+
+    background-size: cover;
+
+    }
+}

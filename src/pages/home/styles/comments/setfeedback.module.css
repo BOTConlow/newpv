@@ -1,0 +1,42 @@
+.feedback {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 1.3rem;
+    padding: 1.5rem 0;
+}
+
+.feedback .profile {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+
+}
+
+.feedback .profile h4 {
+    width: 13ch;
+}
+
+
+.feedback .removebutton button {
+    background: transparent;
+    border: 0;
+    color: var(--gray-500);
+    transition: color 200ms ease;
+
+}
+
+.feedback button:hover {
+    color: var(--red-danger);
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .feedback .profile {
+        gap: 1rem;
+    }
+}

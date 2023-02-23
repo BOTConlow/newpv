@@ -1,0 +1,39 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content .header {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    background: #c4170c;
+    margin-top: 2rem;
+
+}
+
+.content .subheader {
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    background: #b0150b;
+
+}
+
+.content .title {
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+

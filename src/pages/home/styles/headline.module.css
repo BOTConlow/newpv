@@ -1,0 +1,56 @@
+.content {
+    width: 100%;
+    padding: 3rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content .headline h1 {
+    font-size: 2.2rem;
+    padding: .6rem;
+    border-radius: 10px;
+    background: linear-gradient(0deg, var(--red-200), var(--red-400));
+    color: var(--white)
+}
+
+.content .headline h2 {
+    margin: 3rem 0;
+    font-size: 2.7rem;
+}
+
+.content button {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .content {
+        padding: 1rem 0 0rem;
+    }
+
+    .content .headline h1 {
+        font-size: 1.2rem;
+    }
+    
+    .content .headline h2 {
+        margin: 2rem 0;
+        font-size: 1.5rem;
+    }
+    
+    .content button {
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+}
+
+
