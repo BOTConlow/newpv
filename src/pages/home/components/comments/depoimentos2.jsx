@@ -80,11 +80,11 @@ export function Depoimentos2({ feedback }) {
     const [time4, setTime4] = useState(false)
     const [time5, setTime5] = useState(false)
     const [comment, setComment] = useState('')
-    const [ date1, setDate1 ] = useState(new Date())
-    const [ date2, setDate2 ] = useState(new Date())
-    const [ date3, setDate3 ] = useState(new Date())
-    const [ date4, setDate4 ] = useState(new Date())
-    const [ date5, setDate5 ] = useState(new Date())
+    const [date1, setDate1] = useState(new Date())
+    const [date2, setDate2] = useState(new Date())
+    const [date3, setDate3] = useState(new Date())
+    const [date4, setDate4] = useState(new Date())
+    const [date5, setDate5] = useState(new Date())
 
     const myCommentRef = useRef(null)
 
@@ -194,6 +194,14 @@ export function Depoimentos2({ feedback }) {
                 </div>
 
                 <div className={style.struture}>
+
+                    {
+
+                        feedbacks.map((feedback) => {
+                            return <div key={feedback} ref={myCommentRef}><SetFeedback removeFeedback={handleRemoveFeedback} feedback={feedback} /></div>
+                        })
+
+                    }
 
                     {time5 &&
                         <DepoimentoBoxFinal
@@ -480,15 +488,6 @@ export function Depoimentos2({ feedback }) {
                         </div>
 
                     </DepoimentoBoxFinal>
-
-
-                    {
-
-                        feedbacks.map((feedback) => {
-                            return <div key={feedback} ref={myCommentRef}><SetFeedback removeFeedback={handleRemoveFeedback} feedback={feedback} /></div>
-                        })
-
-                    }
 
                 </div>
 
