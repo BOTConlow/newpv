@@ -7,13 +7,16 @@ export function Vsl() {
         <div className={style.vsl}>
 
             <iframe
-                id="panda-5decc0c6-c28a-4feb-891c-cd3caa5fe300"
-                src="https://player-vz-0aa13796-454.tv.pandavideo.com.br/embed/?v=5decc0c6-c28a-4feb-891c-cd3caa5fe300"
-                style={{ border: 'none' }}
+                id="panda-9434ada7-fb2f-464d-9d11-147e75ba4fd8"
+                src="https://player-vz-cc25821f-b96.tv.pandavideo.com.br/embed/?v=9434ada7-fb2f-464d-9d11-147e75ba4fd8"
+                style={{border: 'none'}}
                 allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
-                >
+                width="100%"
+                height="100%"
+                fetchpriority="high">
             </iframe>
 
         </div>
+
     )
 }
