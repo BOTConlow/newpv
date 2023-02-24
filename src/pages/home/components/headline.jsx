@@ -15,6 +15,8 @@ export function Headline() {
                 <Vsl />
             </div>
 
+                <p>ATENÇÃO: Esse vídeo poderá sair do ar a qualquer momento</p>
+
             <Button
                 title='Clique aqui se deseja acabar com as acnes!'
             />

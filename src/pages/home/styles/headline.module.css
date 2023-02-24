@@ -27,6 +27,11 @@
     font-size: 2.7rem;
 }
 
+.content p {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
 .content button {
     font-size: 2.5rem;
     margin-top: 4rem;
@@ -45,6 +50,10 @@
     .content .headline h2 {
         margin: 2rem 0;
         font-size: 1.5rem;
+    }
+
+    .content p {
+        font-size: .7rem;
     }
     
     .content button {
