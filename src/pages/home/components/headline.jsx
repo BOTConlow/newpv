@@ -8,7 +8,7 @@ export function Headline() {
 
             <div className={style.headline}>
                 <h1>POUCAS PESSOAS SABEM DISSO</h1>
-                <h2><u>Basta fazer isso</u> para produzir <span style={{ color: 'var(--red-400)' }}>peptídeos anti-acnes</span> capazes de <span style={{ color: 'var(--red-400)' }}>eliminar <u>definitivamente</u></span> suas espinhas</h2>
+                <h2><u>Fazendo isso</u> Você produz <span style={{ color: 'var(--red-400)' }}>peptídeos anti-acnes</span> capazes de <span style={{ color: 'var(--red-400)' }}>eliminar <u>definitivamente</u></span> suas espinhas</h2>
             </div>
 
             <div>
