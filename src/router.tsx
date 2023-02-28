@@ -17,7 +17,7 @@ export function AppRoutes() {
             <ScrollToTop />
             <Routes>
                 <Route index element={<HomePage />}/>
-                <Route path='/thanks-page' element={<Thankspage />}/>
+                <Route path='/thankspage' element={<Thankspage />}/>
             </Routes>
         </Router>
 
