@@ -7,6 +7,7 @@ import {
 import { HomePage } from './pages/home'
 import { QuizPage } from './pages/quiz'
 import ScrollToTop from '../ScrollToTop'
+import { Thankspage } from './pages/thankspage'
 
 export function AppRoutes() {
 
@@ -16,7 +17,7 @@ export function AppRoutes() {
             <ScrollToTop />
             <Routes>
                 <Route index element={<HomePage />}/>
-                <Route path='/pesquisa' element={<QuizPage />}/>
+                <Route path='/thanks-page' element={<Thankspage />}/>
             </Routes>
         </Router>
 
