@@ -1,6 +1,5 @@
 .feedback {
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -24,13 +23,7 @@
 .feedback .removebutton button {
     background: transparent;
     border: 0;
-    color: var(--gray-500);
     transition: color 200ms ease;
-
-}
-
-.feedback button:hover {
-    color: var(--red-danger);
 
 }
 

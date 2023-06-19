@@ -5,7 +5,7 @@ export function Header() {
         <div className={style.header}>
                 <h1>
                     <i>
-                        Entenda como Jovens e Adultos estão conquistando uma pele lisa e limpa em casa sem precisar de roacutan. Veja você mesmo resultados reais abaixo:
+                        Neste Pequeno Vídeo Você Verá Depoimentos Reais De Pessoas Que Já Sofreram Com Acne Severa e Logo Após Descobrirem Nosso Método Tiveram Suas Vidas Transformadas
                     </i>
                 </h1>
         </div>
