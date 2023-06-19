@@ -15,7 +15,7 @@ export function SetFeedback({ feedback, removeFeedback }) {
 
                 <FeedbackStruture
                     src={Avatar}
-                    title='Usuário Anônimo'
+                    title='Anônimo'
                     desc={feedback.feedback}
                     time={formatDistanceToNow(feedback.createdAt, {
                         locale: ptBR,

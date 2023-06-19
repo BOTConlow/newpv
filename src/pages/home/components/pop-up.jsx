@@ -18,7 +18,7 @@ export function PopUp({ name }) {
         <div className={`${style.content} ${desapear && style.desapearAnim}`}>
 
             <div className={style.box}>
-                <CircleWavyCheck size={25} weight="fill" /> <h4>{name} acabou de comprar</h4>
+                <CircleWavyCheck size={25} weight="fill" /> <h4><u>{name}</u> acabou de Obter</h4>
             </div>
 
         </div>
