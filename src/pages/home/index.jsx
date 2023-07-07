@@ -95,9 +95,12 @@ export function HomePage() {
 
                     <Depoimentos2 />
 
-                    {
-                        loop && <PopUp name={nameToBuy} />
-                    }
+                    {time && <>
+                        {
+                            loop && <PopUp name={nameToBuy} />
+                        }
+                    </>}
+
 
 
 
