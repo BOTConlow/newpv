@@ -78,7 +78,7 @@ export function HomePage() {
 
             setTime(true)
 
-        }, 1000)
+        }, 1008000)
 
     }, [])
 
@@ -99,77 +99,79 @@ export function HomePage() {
                         loop && <PopUp name={nameToBuy} />
                     }
 
+
+
+                    <Depoimentos />
+
                     {time && <>
-
-                        <Depoimentos />
-
                         <Promocao />
+                    </>}
 
-                        <Passos />
+                    <Passos />
 
-                        <Beneficios />
+                    <Beneficios />
 
-                        <Poderoso />
+                    <Poderoso />
 
+
+
+                </div>
+
+            </Background>
+
+            <Background bgImage='background3'>
+
+                <div className={style.container}>
+
+                    <Acesso />
+
+                </div>
+
+            </Background>
+
+            <Background bgImage='background1'>
+
+                <div className={style.container}>
+
+                    <Dermatologista />
+
+                    <Bonus />
+
+                </div>
+
+            </Background>
+
+            <Background bgImage='background3'>
+
+                <div className={style.container}>
+
+                    <Grupo />
+
+                </div>
+
+            </Background>
+
+            <Background bgImage='background1'>
+
+                <div className={style.container}>
+
+                    {time && <>
+                        <Quantovale />
                     </>}
 
                 </div>
 
             </Background>
 
-            {time && <>
-                <Background bgImage='background3'>
+            <Background bgImage='background2'>
 
-                    <div className={style.container}>
+                <div className={style.container}>
 
-                        <Acesso />
+                    <Duvidas />
 
-                    </div>
+                </div>
 
-                </Background>
-
-                <Background bgImage='background1'>
-
-                    <div className={style.container}>
-
-                        <Dermatologista />
-
-                        <Bonus />
-
-                    </div>
-
-                </Background>
-
-                <Background bgImage='background3'>
-
-                    <div className={style.container}>
-
-                        <Grupo />
-
-                    </div>
-
-                </Background>
-
-                <Background bgImage='background1'>
-
-                    <div className={style.container}>
-
-                        <Quantovale />
-
-                    </div>
-
-                </Background>
-
-                <Background bgImage='background2'>
-
-                    <div className={style.container}>
-
-                        <Duvidas />
-
-                    </div>
-
-                </Background>
-            </>}
+            </Background>
 
         </div >
     )

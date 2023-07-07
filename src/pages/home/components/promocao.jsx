@@ -15,7 +15,7 @@ export function Promocao() {
                         De R$ 397,00
                     </h1>
                     <p>
-                        <span style={{ color: '#000000' }}>Por 11x de 5,38</span> ou R$ 49,80 à vista
+                        <span style={{ color: '#000000' }}>Por 12x de 15,05</span> ou R$ 149,90 à vista
                     </p>
                     <h2>
                         <u>Promoção expira hoje!</u>
@@ -28,7 +28,7 @@ export function Promocao() {
             </div>
             <div className={style.subtitle}>
                 <p>
-                    Último dia com <span style={{ color: 'var(--red-400)' }}>60% de Desconto</span> com 4 Novos Bônus adicionados agora em Janeiro de 2023
+                    Último dia com <span style={{ color: 'var(--red-400)' }}>60% de Desconto</span> com 4 Novos Bônus adicionados agora em Julho de 2023
                 </p>
             </div>
 

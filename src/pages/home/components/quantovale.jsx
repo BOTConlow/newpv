@@ -61,13 +61,13 @@ export function Quantovale() {
                             De <s>R$ 396,70</s>
                         </p>
                         <p style={{ fontSize: '2.2rem', fontWeight: 'bold' }}>
-                            por 11x de:
+                            por 12x de:
                         </p>
                         <h1>
-                            R$ 5,38
+                            R$ 15,05
                         </h1>
                         <p style={{ marginBottom: '1.5rem' }}>
-                            ou 49,80 a vista
+                            ou 149,90 a vista
                         </p>
 
                         <Button

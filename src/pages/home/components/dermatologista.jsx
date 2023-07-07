@@ -1,7 +1,8 @@
 import style from '../styles/dermatologista.module.css'
-import Image from '../../../assets/Dermatologista.webp'
+import Image from '../../../assets/Dermatologista.png'
 import Selo from '../../../assets/selo.webp'
 import { Promocao } from './promocao'
+import { useEffect, useState } from 'react'
 
 const text3 = [{
     text: 'Dermatologista e Criadora do Protoclo Pele Perfeita, Membro da Sociedade Brasileira de Dermatologia, com anos de experiência e especializações em Longevidade Saudável, Fitoterapia e Medicina Quântica, incluindo a última tecnologia de peptídeos anti-acnes, a Doutora Karina Costa é considerada uma das melhores do Brasil na luta contra as acnes.'
@@ -10,6 +11,19 @@ const text3 = [{
 }]
 
 export function Dermatologista() {
+
+    const [ time, setTime ]  = useState(false)
+
+    useEffect(() => {
+
+        setTimeout(() => {
+
+            setTime(true)
+
+        }, 1008000)
+
+    }, [])
+
     return (
         <div className={style.content}>
 
@@ -37,7 +51,10 @@ export function Dermatologista() {
                 </div>
             </div>
 
-            <Promocao />
+            {time && <>
+                <Promocao />
+            </>}
+
 
             <div className={style.garantia}>
 
