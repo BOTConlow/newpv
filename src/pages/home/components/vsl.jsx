@@ -7,10 +7,11 @@ export function Vsl() {
         <div className={style.vsl}>
 
             <iframe
-                id="panda-59b8e599-ad7d-464e-877e-c49fe085d203"
-                src="https://player-vz-cb3e51cc-16c.tv.pandavideo.com.br/embed/?v=59b8e599-ad7d-464e-877e-c49fe085d203"
+                id="panda-20943242-edc0-41cb-a0f3-177d882537a8"
+                src="https://player-vz-cb3e51cc-16c.tv.pandavideo.com.br/embed/?v=20943242-edc0-41cb-a0f3-177d882537a8&playOpensFullscreenNative=true"
                 style={{ border: 'none' }}
                 allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
+                allowfullscreen="true"
                 width="720"
                 height="360"
                 fetchpriority="high">
