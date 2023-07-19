@@ -6,11 +6,11 @@ import { Button2 } from '../../../components/button'
 const texts = [{
     icon: 'icone1',
     title: 'Sua ajuda diária',
-    desc: 'Você não vai estar sozinha. Tire todas as dúvidas sobre o conteúdo do e-book que podem surgir durante a sua jornada e interaja com as outras participantes. #TodasJuntas'
+    desc: 'Você não vai estar sozinho(a). Tire todas as dúvidas sobre o conteúdo do e-book que podem surgir durante a sua jornada e interaja com as outras participantes. #TodosJuntos'
 }, {
     icon: 'icone2',
-    title: 'Inspire outras mulheres',
-    desc: 'Você pode postar seus resultados, pratos e como está se sentindo. Faça parte da nossa comunidade com mais de 8 mil pessoas com o mesmo objetivo que você: Alcançar o peso ideal e o corpo dos nossos sonhos.'
+    title: 'Inspire outras pessoas',
+    desc: 'Você pode postar seus resultados, pratos e como está se sentindo. Faça parte da nossa comunidade com mais de 8 mil pessoas com o mesmo objetivo que você: Alcançar a pele ideal dos nossos sonhos.'
 }]
 
 export function Grupo() {

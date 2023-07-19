@@ -21,6 +21,7 @@ export function HomePage() {
 
     const [loop, setLoop] = useState(false)
     const [time, setTime] = useState(false)
+    const [timePage, setTimePage] = useState(false)
     const [nameToBuy, setNameToBuy] = useState('')
 
     useEffect(() => {
@@ -95,76 +96,92 @@ export function HomePage() {
 
                     <Depoimentos2 />
 
-                    {time && <>
-                        {
-                            loop && <PopUp name={nameToBuy} />
-                        }
-                    </>}
-
-
-
-
                     <Depoimentos />
 
                     {time && <>
+
+                        {
+                            loop && <PopUp name={nameToBuy} />
+                        }
+
                         <Promocao />
+
+                        <Passos />
+
+                        <Beneficios />
+
+                        <Poderoso />
+
                     </>}
 
-                    <Passos />
-
-                    <Beneficios />
-
-                    <Poderoso />
-
-
-
                 </div>
 
             </Background>
 
-            <Background bgImage='background3'>
+            {time && <>
 
-                <div className={style.container}>
+                <Background bgImage='background3'>
 
-                    <Acesso />
+                    <div className={style.container}>
 
-                </div>
 
-            </Background>
+                        <Acesso />
 
-            <Background bgImage='background1'>
 
-                <div className={style.container}>
 
-                    <Dermatologista />
+                    </div>
 
-                    <Bonus />
+                </Background>
 
-                </div>
+            </>}
 
-            </Background>
+            {time && <>
 
-            <Background bgImage='background3'>
+                <Background bgImage='background1'>
 
-                <div className={style.container}>
+                    <div className={style.container}>
 
-                    <Grupo />
 
-                </div>
+                        <Dermatologista />
 
-            </Background>
+                        <Bonus />
 
-            <Background bgImage='background1'>
 
-                <div className={style.container}>
 
-                    {time && <>
+                    </div>
+
+                </Background>
+
+            </>}
+
+            {time && <>
+
+                <Background bgImage='background3'>
+
+                    <div className={style.container}>
+
+                        <Grupo />
+
+                    </div>
+
+                </Background>
+
+            </>}
+
+            {time && <>
+
+                <Background bgImage='background1'>
+
+                    <div className={style.container}>
+
                         <Quantovale />
-                    </>}
 
-                </div>
+                    </div>
 
-            </Background>
+                </Background>
+                
+            </>}
+
 
             <Background bgImage='background2'>
 
