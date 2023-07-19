@@ -96,23 +96,15 @@ export function HomePage() {
 
                     <Depoimentos2 />
 
+                </div>
+
+            </Background>
+
+            <Background bgImage='background3'>
+
+                <div className={style.container}>
+
                     <Depoimentos />
-
-                    {time && <>
-
-                        {
-                            loop && <PopUp name={nameToBuy} />
-                        }
-
-                        <Promocao />
-
-                        <Passos />
-
-                        <Beneficios />
-
-                        <Poderoso />
-
-                    </>}
 
                 </div>
 
@@ -120,14 +112,33 @@ export function HomePage() {
 
             {time && <>
 
+                <Background bgImage='background1'>
+
+                    <div className={style.container}>
+
+                        {
+                            loop && <PopUp name={nameToBuy} />
+                        }
+
+                        <Passos />
+
+                        <Beneficios />
+
+                        <Poderoso />
+
+                    </div>
+
+                </Background>
+
+            </>}
+
+            {time && <>
+
                 <Background bgImage='background3'>
 
                     <div className={style.container}>
 
-
                         <Acesso />
-
-
 
                     </div>
 
@@ -179,7 +190,7 @@ export function HomePage() {
                     </div>
 
                 </Background>
-                
+
             </>}
 
 

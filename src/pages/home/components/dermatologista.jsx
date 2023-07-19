@@ -51,11 +51,6 @@ export function Dermatologista() {
                 </div>
             </div>
 
-            {time && <>
-                <Promocao />
-            </>}
-
-
             <div className={style.garantia}>
 
                 <img

@@ -10,8 +10,8 @@
     padding: .7rem 1.8rem;
     border: 0px;
     border-radius: 10px;
-    background: linear-gradient(90deg, var(--red-300), var(--red-500));
-    box-shadow: 0px 0px 10px var(--red-400);
+    background: linear-gradient(90deg, #29cf83, #31df80);
+    box-shadow: 0px 0px 10px #29cf83;
     transition: all 200ms ease-in-out;
     color: white;
     cursor: pointer;

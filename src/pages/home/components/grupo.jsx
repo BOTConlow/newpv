@@ -1,7 +1,7 @@
 import style from '../styles/grupo.module.css'
 import Image from '../../../assets/grupovip.webp'
 import { ChatsCircle, Star } from 'phosphor-react'
-import { Button2 } from '../../../components/button'
+import { Button } from '../../../components/button'
 
 const texts = [{
     icon: 'icone1',
@@ -64,7 +64,7 @@ export function Grupo() {
                     Agora é com você! Clique no botão abaixo e tenha agora sua autoestima de volta.
                 </h1>
 
-                <Button2
+                <Button
                     title='Tenha sua autoestima de volta!'
                 />
             </div>

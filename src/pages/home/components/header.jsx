@@ -5,7 +5,7 @@ export function Header() {
         <div className={style.header}>
                 <h1>
                     <i>
-                        Neste Pequeno Vídeo Você Verá Depoimentos Reais De Pessoas Que Já Sofreram Com Acne Severa e Logo Após Descobrirem Nosso Método Tiveram Suas Vidas Transformadas
+                        Neste Pequeno Vídeo Você Verá Depoimentos Reais De Pessoas Que Já Sofreram Com Acne Severa e Tiveram Suas Vidas Transformadas Após Descobrirem Nosso Método
                     </i>
                 </h1>
         </div>

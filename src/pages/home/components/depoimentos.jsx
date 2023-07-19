@@ -72,11 +72,11 @@ export function Depoimentos(props) {
             <div className={style.title}>
 
                 <h1>
-                    <span style={{ color: 'var(--red-400)' }}>Não acredite</span> apenas nas nossas palavras
+                    <span style={{ color: '#000' }}>Não acredite</span> apenas nas nossas palavras
                 </h1>
 
                 <p>
-                    <span style={{ color: 'var(--red-400)' }}><b>Veja você mesmo</b></span> as <b>transformações incríveis</b> que o Protocolo Pele Perfeita tem proporcionado a vida de todos que optaram em testar nosso método. <b>Experimente ainda hoje</b>, pois com nossa garantia de 100% de satisfação, <b>você não tem nada a perder</b>, só uma <b>pele clara e saudável a ganhar</b>.
+                    <span style={{ color: '#000' }}><b>Veja você mesmo</b></span> as <b>transformações incríveis</b> que o Protocolo Pele Perfeita tem proporcionado a vida de todos que optaram em testar nosso método. <b>Experimente ainda hoje,</b> pois com nossa garantia de 100% de satisfação, <span style={{ color: '#000' }}><b>você não tem nada a perder</b>,</span> só uma <span style={{ color: '#000' }}><b>pele clara e saudável a ganhar</b>.</span>
                 </p>
 
             </div>

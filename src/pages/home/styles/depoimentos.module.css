@@ -5,6 +5,7 @@
     position: relative;
     gap: 5rem;
     margin: 2rem 0 3rem;
+    color: #fff;
 }
 
 .depoimentos .title {
@@ -16,6 +17,7 @@
     font-size: 2.4rem;
     margin-bottom: 2rem;
     padding-left: 1.2rem;
+    color: #fff;
 }
 
 .depoimentos .title p {
@@ -30,7 +32,7 @@
     width: 2.2px;
     height: 17.1rem;
     top: 3rem;
-    background: var(--red-400);
+    background: #fff;
 }
 
 .depoimentos .images {

@@ -1,6 +1,6 @@
 import style from '../styles/acesso.module.css'
 import Image from '../../../assets/celular2.webp'
-import { Button2 } from '../../../components/button'
+import { Button } from '../../../components/button'
 
 const text = [{
     text: 'Tudo de forma fácil e organizada para você simplesmente começar e já ter resultados.'
@@ -29,7 +29,7 @@ export function Acesso() {
                 ))}
                 <div className={style.button}>
                     
-                    <Button2
+                    <Button
                         title='Clique aqui para se livrar das acnes!'
                     />
                 </div>

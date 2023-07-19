@@ -1,4 +1,4 @@
-import { Button2 } from '../../../components/button'
+import { Button } from '../../../components/button'
 import style from '../styles/promocao.module.css'
 
 export function Promocao() {
@@ -21,7 +21,7 @@ export function Promocao() {
                         <u>Promoção expira hoje!</u>
                     </h2>
 
-                    <Button2
+                    <Button
                         title='Clique aqui para se livrar das acnes!'
                     />
                 </div>
