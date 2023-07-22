@@ -181,7 +181,7 @@ export function Depoimentos2({ feedback }) {
         <div>
             <div className={style.title}>
                 <h1>
-                    Veja o que estão falando <span style={{ color: 'var(--red-400)' }}>AGORA do nosso protocolo</span>
+                    Interaja <span style={{ color: 'var(--red-400)' }}>AGORA com nosso chat em TEMPO REAL</span>
                 </h1>
             </div>
 

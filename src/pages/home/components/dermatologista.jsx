@@ -12,7 +12,7 @@ const text3 = [{
 
 export function Dermatologista() {
 
-    const [ time, setTime ]  = useState(false)
+    const [time, setTime] = useState(false)
 
     useEffect(() => {
 
@@ -49,23 +49,6 @@ export function Dermatologista() {
                         src={Image}
                     />
                 </div>
-            </div>
-
-            <div className={style.garantia}>
-
-                <img
-                    src={Selo}
-                />
-
-                <div className={style.box}>
-                    <h1>
-                        7 Dias de Garantia <span style={{ color: 'var(--red-500)' }}>Incondicional!</span>
-                    </h1>
-                    <p>
-                        Você terá acesso por 7 dias para testar todo o material. Sua oportunidade de avaliar e testar todo o tratamento, tirar suas dúvidas com o nosso suporte, enfim, desfrute de tudo que o tratamento pode te proporcionar sem qualquer pressão. Se durante esse tempo você decidir que o produto não é adequado para você ou não está preparada no momento, basta solicitar o seu reembolso integralmente enviando um e-mail para o suporte de atendimento. Isso mesmo, seu dinheiro de volta e sem perguntas!
-                    </p>
-                </div>
-
             </div>
 
         </div>

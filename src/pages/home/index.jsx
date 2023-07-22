@@ -16,6 +16,7 @@ import { Depoimentos2 } from './components/comments/depoimentos2'
 import { Dermatologista } from './components/dermatologista'
 import { PopUp } from './components/pop-up'
 import { Promocao } from './components/promocao'
+import { Garantia } from './components/garantia'
 
 export function HomePage() {
 
@@ -120,9 +121,11 @@ export function HomePage() {
                             loop && <PopUp name={nameToBuy} />
                         }
 
-                        <Passos />
+                        <Garantia />
 
                         <Beneficios />
+
+                        <Passos />
 
                         <Poderoso />
 
