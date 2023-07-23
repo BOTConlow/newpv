@@ -1,5 +1,5 @@
 .vsl iframe {
-    box-shadow: 25px 15px 0px 0px #a3160d;
+    box-shadow: 17px 15px 0px 0px #a3160d;
     width: 700px;
     height: 394px;
     border-radius: 6px;
@@ -8,8 +8,8 @@
 @media screen and (max-width: 1000px) {
 
     .vsl iframe {
-        width: 330px;
-        height: 189px;
+        width: 359px;
+        height: 202px;
     }
 
 }

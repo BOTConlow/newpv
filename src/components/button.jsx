@@ -1,21 +1,8 @@
-import { useEffect } from 'react'
-import { useState } from 'react'
 import style from '../styles/button.module.css'
 
 export function Button(props) {
 
     const { title, desc } = props
-    const [ time, setTime ] = useState(false)
-
-    useEffect(() => {
-
-        setTimeout(() => {
-
-            setTime(true)
-
-        }, 10000)
-
-    }, [])
 
     return (
 
