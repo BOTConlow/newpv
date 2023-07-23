@@ -75,7 +75,7 @@ export function Quantovale() {
                         />
 
                         <p style={{marginTop: '1rem', fontSize: '1rem'}}>
-                            Compra segura com garantia incondicional de 7 dias.
+                            Compra segura com garantia incondicional de 30 dias.
                         </p>
                     </div>
 

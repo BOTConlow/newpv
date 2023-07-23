@@ -111,7 +111,7 @@ export function Beneficios() {
 
             <div>
                 <Button
-                    title='Clique aqui para se livrar das acnes!'
+                    title='Clique aqui para se livrar das espinhas!'
                 />
             </div>
 

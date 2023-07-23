@@ -78,7 +78,7 @@ export function Bonus() {
             </div>
 
             <Button
-                title='Clique aqui para se livrar das acnes!'
+                title='Quero ter acesso a todo esse material!'
             />
 
         </div>

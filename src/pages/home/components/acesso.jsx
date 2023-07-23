@@ -30,7 +30,7 @@ export function Acesso() {
                 <div className={style.button}>
                     
                     <Button
-                        title='Clique aqui para se livrar das acnes!'
+                        title='Quero restaurar minha pele de forma natural!'
                     />
                 </div>
             </div>

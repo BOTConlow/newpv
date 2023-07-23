@@ -93,8 +93,8 @@ export function Poderoso() {
                 </p>
 
                 <Button
-                    title='Clique aqui para se livrar das acnes!'
-                    desc='Por apenas 12X de R$ 8,82 ou R$ 87,90 à vista.'
+                    title='Quero obter acesso ao protocolo!'
+                    desc='Por apenas 12X de R$ 15,05 ou R$ 149,90 à vista.'
                 />
             </div>
 

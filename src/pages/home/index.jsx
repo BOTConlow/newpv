@@ -80,7 +80,7 @@ export function HomePage() {
 
             setTime(true)
 
-        }, 1008000)
+        }, 10000)
 
     }, [])
 
@@ -196,16 +196,20 @@ export function HomePage() {
 
             </>}
 
+            {time && <>
 
-            <Background bgImage='background2'>
 
-                <div className={style.container}>
+                <Background bgImage='background2'>
 
-                    <Duvidas />
+                    <div className={style.container}>
 
-                </div>
+                        <Duvidas />
 
-            </Background>
+                    </div>
+
+                </Background>
+            </>}
+
 
         </div >
     )

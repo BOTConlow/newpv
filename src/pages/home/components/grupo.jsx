@@ -65,7 +65,7 @@ export function Grupo() {
                 </h1>
 
                 <Button
-                    title='Tenha sua autoestima de volta!'
+                    title='Quero ter minha autoestima de volta!'
                 />
             </div>
 

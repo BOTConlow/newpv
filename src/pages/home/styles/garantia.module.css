@@ -13,7 +13,7 @@
 }
 
 .content .garantia img {
-    margin: 3rem 0 2rem;
+    margin: 2rem;
 }
 
 .content .garantia h1 {
@@ -58,8 +58,13 @@
     }
 
     .content .garantia p {
+        text-align: justify;
         line-height: 150%;
         font-size: 1rem;
+    }
+
+    .content .garantia button {
+        font-size: 1.1rem;
     }
     
     .content .garantia .box {
