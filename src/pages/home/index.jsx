@@ -101,6 +101,21 @@ export function HomePage() {
 
             </Background>
 
+            {time && <>
+
+                <Background bgImage='background1'>
+
+                    <div className={style.container}>
+
+                        <Garantia />
+
+                    </div>
+
+                </Background>
+
+            </>}
+
+
             <Background bgImage='background3'>
 
                 <div className={style.container}>
@@ -120,8 +135,6 @@ export function HomePage() {
                         {
                             loop && <PopUp name={nameToBuy} />
                         }
-
-                        <Garantia />
 
                         <Beneficios />
 
