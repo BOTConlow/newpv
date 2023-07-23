@@ -80,7 +80,7 @@ export function HomePage() {
 
             setTime(true)
 
-        }, 10000)
+        }, 960000)
 
     }, [])
 
