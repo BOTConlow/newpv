@@ -20,7 +20,6 @@ export function Button(props) {
     return (
 
         <div>
-            {time && <>
                 <div style={{ color: '#fff' }}>
                     {
                         title &&
@@ -42,7 +41,6 @@ export function Button(props) {
                         </div>
                     }
                 </div>
-            </>}
         </div>
     )
 }
