@@ -22,7 +22,7 @@ export function Headline() {
         <div className={style.content}>
 
             <div className={style.headline}>
-                <h1>ASSISTA E DESCUBRA</h1>
+                <h1>SSISTA E DESCUBRA</h1>
                 <h2>Como <u>Jovens e Adultos</u> Estão Conquistando Uma <span style={{ color: 'var(--red-400)' }}>Pele Lisa e Limpa</span> Em Casa <u>Sem precisar De Roacutan</u></h2>
             </div>
 
