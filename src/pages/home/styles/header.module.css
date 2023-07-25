@@ -20,6 +20,7 @@
 @media screen and (max-width: 1000px) {
 
     .header {
+        display: none;
         padding: 1rem;
     }
 

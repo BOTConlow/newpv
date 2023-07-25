@@ -39,7 +39,7 @@
     width: 23rem;
     height: 23rem;
     border-radius: 10px;
-    box-shadow: 35px 35px 0px 0px #BD1A0F;
+    box-shadow: 35px 35px 0px 0px #94130a;
 }
 
 .depoimentos .images img {
@@ -70,7 +70,7 @@
     }
 
     .title::before {
-        height: 16.9rem;
+        height: 16.8rem;
         top: 0.6rem;
     }
     

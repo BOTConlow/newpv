@@ -181,7 +181,7 @@ export function Depoimentos2({ feedback }) {
         <div>
             <div className={style.title}>
                 <h1>
-                    INTERAJA <span style={{ color: 'var(--red-400)' }}>AGORA EM NOSSO CHAT EM TEMPO REAL</span>
+                    INTERAJA <span style={{ color: 'var(--red-400)' }}>AGORA COM NOSSO CHAT EM TEMPO REAL</span>
                 </h1>
             </div>
 
