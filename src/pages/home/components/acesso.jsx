@@ -19,7 +19,7 @@ export function Acesso() {
 
             <div>
                 <h1>
-                    Teste VAI TER ACESSO AO PROTOCOLO DE ELIMINAR ACNE NA PALMA DA SUA MÃO!
+                    VOCÊ VAI TER ACESSO AO PROTOCOLO DE ELIMINAR ACNE NA PALMA DA SUA MÃO!
                 </h1>
 
                 {text.map((item, index) => (
