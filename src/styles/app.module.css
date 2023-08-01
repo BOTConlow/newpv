@@ -13,7 +13,7 @@
 @media screen and (max-width: 1000px) {
 
     .container {
-        max-width: 50rem;
+        max-width: 40rem;
         gap: 1rem;
         margin: 0 auto;
         padding: .8rem;
