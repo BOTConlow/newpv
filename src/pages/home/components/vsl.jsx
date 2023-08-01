@@ -13,8 +13,8 @@ export function Vsl() {
                     border: 'none'
                 }}
                 allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
-                width={870}
-                height={490}
+                width={869}
+                height={489}
                 fetchpriority="high"
             />
 

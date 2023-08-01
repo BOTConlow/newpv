@@ -16,16 +16,18 @@
 
 .content .headline h1 {
     font-size: 2.2rem;
-    padding: .6rem;
+    padding: 1rem;
     border-radius: 10px;
     background: linear-gradient(0deg, var(--red-200), var(--red-400));
     box-shadow: 7px 7px 10px var(--red-100);
-    color: var(--white)
+    color: var(--white);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.50);
 }
 
 .content .headline h2 {
     margin: 3rem 0;
     font-size: 2.7rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.50);
 }
 
 .content p {

@@ -1,13 +1,13 @@
 .vsl iframe {
-    box-shadow: 17px 15px 0px 0px #a3160d;
-    border-radius: 6px;
+    box-shadow: 18px 18px 23px 0px #96130b;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 1000px) {
 
     .vsl iframe {
-        width: 359px;
-        height: 202px;
+        width: 355px;
+        height: 198px;
     }
 
 }
