@@ -19,6 +19,7 @@
     padding: .6rem;
     border-radius: 10px;
     background: linear-gradient(0deg, var(--red-200), var(--red-400));
+    box-shadow: 7px 7px 10px var(--red-100);
     color: var(--white)
 }
 
