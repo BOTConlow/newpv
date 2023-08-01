@@ -22,7 +22,6 @@ export function HomePage() {
 
     const [loop, setLoop] = useState(false)
     const [time, setTime] = useState(false)
-    const [timePage, setTimePage] = useState(false)
     const [nameToBuy, setNameToBuy] = useState('')
 
     useEffect(() => {

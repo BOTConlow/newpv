@@ -24,10 +24,10 @@ export function Garantia() {
                         Somos tão confiantes de que nosso produto irá superar suas expectativas, que se por algum motivo durante esse período você não se sinta satisfeito(a) ou pronto(a) para o tratamento, ou até mesmo se as cores presentes em nosso material não o(a) agradaram, não há problema algum!
                     </p>
                     <p>
-                        Basta mandar uma mensagem para nosso suporte que ficaremos felizes em presenteá-lo(a) com o valor de uma consulta a um dermatologista de sua escolha como um pedido de desculpas sincero.
+                        Basta mandar uma mensagem para nosso suporte 24 horas que ficaremos felizes em reembolsa-lo(a) com o valor de uma consulta a um dermatologista de sua escolha como um pedido de desculpas sincero.
                     </p>
                     <p>
-                        Ou se preferir com apenas uma mensagem para nosso suporte 24 horas, você receberá o reembolso instantâneo no valor total da sua compra.. Isso mesmo, seu dinheiro de volta instantaneamente e sem perguntas!
+                        Isso mesmo, você receberá mais do que pagou instantaneamente e sem perguntas!
                     </p>
                     <Button
                         title='Clique aqui para ter uma pele limpa!'
