@@ -37,7 +37,6 @@ export function Vsl() {
                 id="panda-cd7c7eb9-005c-4e8f-917a-ccc397b83364"
                 src="https://player-vz-cb3e51cc-16c.tv.pandavideo.com.br/embed/?v=cd7c7eb9-005c-4e8f-917a-ccc397b83364"
                 style={{
-                    width: '100%',
                     border: 'none',
                     height: iframeHeight
                 }}

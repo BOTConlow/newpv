@@ -26,9 +26,7 @@ export function Headline() {
                 <h2>Como <u>Jovens e Adultos</u> Estão Conquistando Uma <span style={{ color: 'var(--red-400)' }}>Pele Lisa e Limpa</span> Em Casa <u>Sem precisar De Roacutan</u></h2>
             </div>
 
-            <div>
-                <Vsl />
-            </div>
+            <Vsl />
 
             <p>ATENÇÃO: Esse vídeo poderá sair do ar a qualquer momento</p>
 
