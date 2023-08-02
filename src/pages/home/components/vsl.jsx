@@ -10,7 +10,7 @@ export function Vsl() {
     const ajustarAltura = () => {
         if (meuIframeRef.current) {
             const width = meuIframeRef.current.clientWidth; // Obter a largura do iframe
-            const scaleFactor = .57; // Fator de escala de 10%, você pode ajustar conforme necessário
+            const scaleFactor = .562; // Fator de escala de 10%, você pode ajustar conforme necessário
             const newHeight = `${width * scaleFactor}px`; // Calcula a nova altura em pixels
             setIframeHeight(newHeight); // Define a nova altura para o estado
         }
@@ -34,15 +34,15 @@ export function Vsl() {
 
             <iframe
                 ref={meuIframeRef}
-                id="panda-cd7c7eb9-005c-4e8f-917a-ccc397b83364"
-                src="https://player-vz-cb3e51cc-16c.tv.pandavideo.com.br/embed/?v=cd7c7eb9-005c-4e8f-917a-ccc397b83364"
+                id="panda-54a54502-4ccb-4255-8a2a-c848c5d74ae7"
+                src="https://player-vz-cb3e51cc-16c.tv.pandavideo.com.br/embed/?v=54a54502-4ccb-4255-8a2a-c848c5d74ae7"
                 style={{
                     border: 'none',
                     height: iframeHeight
                 }}
-
                 allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
                 fetchpriority="high"
+
             />
 
         </div>
