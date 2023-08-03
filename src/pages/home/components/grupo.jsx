@@ -6,7 +6,7 @@ import { Button } from '../../../components/button'
 const texts = [{
     icon: 'icone1',
     title: 'Sua ajuda diária',
-    desc: 'Você não vai estar sozinho(a). Tire todas as dúvidas sobre o conteúdo do e-book que podem surgir durante a sua jornada e interaja com as outras participantes. #TodosJuntos'
+    desc: 'Você não vai estar sozinho(a). Tire todas as dúvidas sobre o conteúdo que possam surgir durante a sua jornada e interaja com as outros participantes. #TodosJuntos'
 }, {
     icon: 'icone2',
     title: 'Inspire outras pessoas',

@@ -79,7 +79,7 @@ export function HomePage() {
 
             setTime(true)
 
-        }, 960000)
+        }, 1000)
 
     }, [])
 

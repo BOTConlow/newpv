@@ -42,7 +42,6 @@ export function Vsl() {
                 }}
                 allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
                 fetchpriority="high"
-
             />
 
         </div>
