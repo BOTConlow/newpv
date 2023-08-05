@@ -39,6 +39,5 @@ export function Vsl() {
             fetchpriority="high"
         />
 
-
     )
 }
