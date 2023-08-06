@@ -1,0 +1,15 @@
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://postgres:YX@kVaHPR2Zs4c0@localhost:5432/formdb"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Usuario {
+  id      Int      @id @default(autoincrement())
+  nome    String
+  email   String   @unique
+}
