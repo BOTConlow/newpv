@@ -42,14 +42,6 @@
         font-size: .8rem;
     }
 
-
-    .desapearAnim {
-        bottom: -5rem;
-        opacity: 0;
-        animation: DesapearPopupAnim .3s ease;
-
-    }
-
 }
 
 
@@ -63,20 +55,6 @@
     100% {
         opacity: 1;
         bottom: 3rem;
-    }
-
-}
-
-@keyframes DesapearPopupAnim {
-
-    0% {
-        bottom: 3rem;
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-        bottom: -5rem;
     }
 
 }

@@ -17,6 +17,7 @@ import { Dermatologista } from './components/dermatologista'
 import { PopUp } from './components/pop-up'
 import { Promocao } from './components/promocao'
 import { Garantia } from './components/garantia'
+import { Formulario } from './components/formulario'
 
 export function HomePage() {
 
@@ -95,6 +96,8 @@ export function HomePage() {
                     <Headline />
 
                     <Depoimentos2 />
+
+                    <Formulario />
 
                 </div>
 
