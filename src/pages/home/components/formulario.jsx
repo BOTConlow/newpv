@@ -29,7 +29,7 @@ export function Formulario() {
         }
 
         axios
-            .post('http://www.protocolopeleperfeita.com.br:5000/enviar-email', { nome, email })
+            .post('https://www.protocolopeleperfeita.com.br:5000/enviar-email', { nome, email })
             .then((response) => {
                 console.log(response.data);
                 setNome('');
